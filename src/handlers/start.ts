@@ -7,7 +7,7 @@ composer.command("start", (ctx) => {
   ctx.reply(
     "*Welcome to RunsCodeBot\n\nI can run your code use `/run {lang} {code}`\n\nTo Check the supported languages hit /langs*",
     {
-      reply_markup: keyboard.url("Update", "t.me/ItzMukunD"),
+      reply_markup: keyboard.url("Update", "https://t.me/MukundX"),
       parse_mode: "MarkdownV2",
     },
   );
@@ -18,7 +18,7 @@ composer.command("help", (ctx) => {
   ctx.reply(
     "*Welcome to RunsCodeBot\n\nI can run your code use `/run {lang} {code}`\n\nTo Check the supported languages hit /langs*",
     {
-      reply_markup: keyboard.url("Update", "t.me/ItzMukunD"),
+      reply_markup: keyboard.url("Update", "https://t.me/MukundX"),
       parse_mode: "MarkdownV2",
     },
   );
